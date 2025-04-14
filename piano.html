@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+
+    <link rel="icon" type="image/x-icon" href="../doc's/1-removebg-preview.png">
+    <link rel="stylesheet" href="piano.css">
+</head>
+<!-- <body> -->
+
+<body>
+    <section id="wrap">
+        <header>
+            <h1>MR PIANO</h1>
+            <h2>Use your keyboard. Hover for hints.</h2>
+        </header>
+        <section id="main">
+            <div class="nowplaying"></div>
+            <div class="keys">
+                <div data-key="65" class="key" data-note="C">
+                    <span class="hints">A</span>
+                </div>
+                <div data-key="87" class="key sharp" data-note="C#">
+                    <span class="hints">W</span>
+                </div>
+                
+                <div data-key="83" class="key" data-note="D">
+                    <span class="hints">S</span>
+                </div>
+                <div data-key="69" class="key sharp" data-note="D#">
+                    <span class="hints">E</span>
+                </div>
+                <div data-key="68" class="key" data-note="E">
+                    <span class="hints">D</span>
+                </div>
+                <div data-key="70" class="key" data-note="F">
+                    <span class="hints">F</span>
+                </div>
+                <div data-key="84" class="key sharp" data-note="F#">
+                    <span class="hints">T</span>
+                </div>
+                <div data-key="71" class="key" data-note="G">
+                    <span class="hints">G</span>
+                </div>
+                <div data-key="89" class="key sharp" data-note="G#">
+                    <span class="hints">Y</span>
+                </div>
+                <div data-key="72" class="key" data-note="A">
+                    <span class="hints">H</span>
+                </div>
+                <div data-key="85" class="key sharp" data-note="A#">
+                    <span class="hints">U</span>
+                </div>
+                <div data-key="74" class="key" data-note="B">
+                    <span class="hints">J</span>
+                </div>
+                <div data-key="75" class="key" data-note="C">
+                    <span class="hints">K</span>
+                </div>
+                <div data-key="79" class="key sharp" data-note="C#">
+                    <span class="hints">O</span>
+                </div>
+                <div data-key="76" class="key" data-note="D">
+                    <span class="hints">L</span>
+                </div>
+                <div data-key="80" class="key sharp" data-note="D#">
+                    <span class="hints">P</span>
+                </div>
+                <div data-key="186" class="key" data-note="E">
+                    <span class="hints">;</span>
+                </div>
+            </div>
+
+            <audio data-key="65" src="audio/0.wav"></audio>
+            <audio data-key="87" src="audio/1.wav"></audio>
+            <audio data-key="83" src="audio//2.wav"></audio>
+            <audio data-key="69" src="audio//3.wav"></audio>
+            <audio data-key="68" src="audio//4.wav"></audio>
+            <audio data-key="70" src="audio//5.wav"></audio>
+            <audio data-key="84" src="audio//6.wav"></audio>
+            <audio data-key="71" src="audio//7.wav"></audio>
+            <audio data-key="89" src="audio//8.wav"></audio>
+            <audio data-key="72" src="audio//9.wav"></audio>
+            <audio data-key="85" src="audio//10.wav"></audio>
+            <audio data-key="74" src="audio//11.wav"></audio>
+            <audio data-key="75" src="audio//12.wav"></audio>
+            <audio data-key="79" src="audio//13.wav"></audio>
+            <audio data-key="76" src="audio//14.wav"></audio>
+            <audio data-key="80" src="audio//15.wav"></audio>
+            <audio data-key="186" src="audio//16.wav"></audio>
+        </section>
+    </section>
+    <video playsinline autoplay muted loop id="bgvid" poster="assets/backgroundphoto.png">
+        <source src="assets/backgroundvid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <script src="piano.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2025 <a href="https://github.com/aakashsapkotaa"><span>Mr Production</span></a></p>
+    <p>All rights reserved</p>
+    <p>Designed with ❤️ by <a href="https://github.com/aakashsapkotaa"><span>Mr Production</span></a></p>
+</footer>
+</html>
