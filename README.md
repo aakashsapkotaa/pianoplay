@@ -31,7 +31,7 @@
 
 ## 🚀 How to Run
 
-1. Clone this repo or [Download ZIP](#)
+1. Clone this repo or [Download ZIP](https://github.com/aakashsapkotaa/pianoplay/archive/refs/heads/main.zip)
 2. Open `piano.html` in your browser
 3. Start playing!
 
