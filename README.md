@@ -1,7 +1,7 @@
 # 🎹 MR PIANO  
 **Play piano in your browser using your keyboard!**
 
-![MR PIANO Screenshot](/Screenshot.png)
+![MR PIANO Screenshot](./screenshot.png)
 
 ---
 
